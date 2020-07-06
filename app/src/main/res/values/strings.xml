@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GstArena</string>
+    <string name="welcome">SIES GST ARENA</string>
+    <string name="contests">Compete!!!!\n\nShow off your skills.\nPut yourself up for recognition</string>
+    <string name="contests_header">Contests</string>
+    <string name="performers">Top performers</string>
+    <string name="problems">Problems</string>
+    <string name="probleminfo">points:0\ncontestCode:UNIVERSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mission">Our mission is to help programmers learn,share and improve themselves in the world of algorithms and competitive coding</string>
+    <string name="gstarena">SIESGSTarena is the name of the CodeChef SIESGST Campus Chapter and an online platform for conducting programming competitions</string>
+    <string name="explore">A place to explore the incredible world of coding and a team with which solving any crazy problem becomes possible</string>
+    <string name="about">About Us</string>
+    <string name="submission">Submission Statistics</string>
+    <string name="topPerformers">Top Performers</string>
+    <string name="submissions">AC Submissions</string>
+    <string name="rating">Current Rating</string>
+    <string name="profile">User Profile</string>
+    <string name="signOut">Sign Out</string>
+</resources>

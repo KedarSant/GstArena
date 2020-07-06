@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.gstarena.titleScreen.TitleFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_titleFragment_to_contestsFragment2"
+            app:destination="@id/contestsFragment2" />
+        <action
+            android:id="@+id/action_titleFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_statsFragment"
+            app:destination="@id/statsFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_problemsFragment"
+            app:destination="@id/problemsFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_aboutFragment2"
+            app:destination="@id/aboutFragment2" />
+        <action
+            android:id="@+id/action_titleFragment_to_profileFragment2"
+            app:destination="@id/profileFragment2" />
+        <action
+            android:id="@+id/action_titleFragment_to_ratingsFragment"
+            app:destination="@id/ratingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contestsFragment2"
+        android:name="com.example.gstarena.contestsScreen.ContestsFragment"
+        android:label="Contests" />
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.gstarena.statisticsScreen.StatisticsFragment"
+        android:label="Top performers" />
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.gstarena.statsScreen.statsFragment"
+        android:label="Submission Stats" />
+    <fragment
+        android:id="@+id/problemsFragment"
+        android:name="com.example.gstarena.problemsScreen.ProblemsFragment"
+        android:label="Problems" />
+    <fragment
+        android:id="@+id/aboutFragment2"
+        android:name="com.example.gstarena.aboutScreen.aboutFragment"
+        android:label="About" />
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.gstarena.profileScreen.profileFragment"
+        android:label="User Profile" />
+    <fragment
+        android:id="@+id/ratingsFragment"
+        android:name="com.example.gstarena.ratingsScreen.ratingsFragment"
+        android:label="Ratings" />
+</navigation>

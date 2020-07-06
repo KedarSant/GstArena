@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "509735520387",
+    "firebase_url": "https://gstarena-73444.firebaseio.com",
+    "project_id": "gstarena-73444",
+    "storage_bucket": "gstarena-73444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509735520387:android:bcf3d88a586fe8e357f3b6",
+        "android_client_info": {
+          "package_name": "com.example.gstarena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509735520387-lsa106ppnlat95qshr9ku5eaqahtn679.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gstarena",
+            "certificate_hash": "5b68b4112580b7751718b32793eeddd88ebe47ac"
+          }
+        },
+        {
+          "client_id": "509735520387-r6foqu1m5tlp49i66t5941us003ehksl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gstarena",
+            "certificate_hash": "fca6f5399f14830eb7b8bc39781d12a39e7a7acd"
+          }
+        },
+        {
+          "client_id": "509735520387-49s9kf1rhcehrnb0dm8c92an98s6ca0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA95FYPVMhhv1I7-_nVL8FSFjXKgwdxyFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509735520387-49s9kf1rhcehrnb0dm8c92an98s6ca0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
