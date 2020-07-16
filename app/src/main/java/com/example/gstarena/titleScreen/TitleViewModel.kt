@@ -24,7 +24,7 @@ class TitleViewModel(val activity : FragmentActivity) : ViewModel() {
             val sharedPref = activity.getPreferences(Context.MODE_PRIVATE)
             if (sharedPref.getString("username","")!= "") return
             withContext(Dispatchers.IO) {
-                _user = Network.info.getUserAsync("singh.vipul15@siesgst.ac.in").await()
+                _user = Network.info.getUserAsync(user.value?.email.toString()).await()
                 val ratings = _user.rantingChange.asDomainRating()
                 val json = Gson().toJson(ratings)
                 with(sharedPref.edit()) {
